@@ -23,6 +23,7 @@
     <arg name="respawn_gazebo" default="false"/>
     <!-- MAVROS connection -->
     <arg name="fcu_url" default="udp://:14540@localhost:14557"/>
+    <!-- <arg name="gcs_url" default="udp://:14556@localhost:14550"/> -->
     <!-- PX4 SITL and Gazebo -->
     <include file="$(find px4)/launch/posix_sitl.launch">
         <arg name="x" value="$(arg x)"/>
